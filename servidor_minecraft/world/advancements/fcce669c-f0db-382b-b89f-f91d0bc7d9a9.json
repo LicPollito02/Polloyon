@@ -11,6 +11,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2025-08-11 00:10:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2025-08-10 23:09:53 +0000"
@@ -38,6 +44,12 @@
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-08-10 23:16:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-08-11 00:10:05 +0000"
     },
     "done": true
   },
@@ -119,6 +131,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-08-10 23:59:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2025-08-10 23:11:58 +0000"
@@ -128,6 +146,12 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2025-08-10 23:11:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2025-08-10 23:59:39 +0000"
     },
     "done": true
   },
@@ -215,9 +239,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-08-11 00:10:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2025-08-10 23:12:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/walk_on_powder_snow_with_leather_boots": {
+    "criteria": {
+      "walk_on_powder_snow_with_leather_boots": "2025-08-11 00:02:51 +0000"
     },
     "done": true
   },
@@ -242,6 +278,12 @@
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2025-08-10 23:09:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-08-11 00:10:05 +0000"
     },
     "done": true
   },
@@ -374,6 +416,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-08-10 23:59:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
       "has_stick": "2025-08-10 23:09:53 +0000"
@@ -424,14 +472,24 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_birch_forest": "2025-08-10 23:22:42 +0000",
+      "minecraft:cold_ocean": "2025-08-11 00:04:33 +0000",
+      "minecraft:snowy_slopes": "2025-08-10 23:59:09 +0000",
+      "minecraft:old_growth_pine_taiga": "2025-08-10 23:46:15 +0000",
       "minecraft:dark_forest": "2025-08-10 23:40:40 +0000",
       "minecraft:forest": "2025-08-10 23:21:11 +0000",
-      "minecraft:sunflower_plains": "2025-08-10 23:07:27 +0000",
+      "minecraft:taiga": "2025-08-10 23:50:35 +0000",
       "minecraft:river": "2025-08-10 23:08:12 +0000",
-      "minecraft:birch_forest": "2025-08-10 23:22:29 +0000",
       "minecraft:stony_shore": "2025-08-10 23:40:11 +0000",
-      "minecraft:plains": "2025-08-10 23:08:00 +0000"
+      "minecraft:dripstone_caves": "2025-08-10 23:59:31 +0000",
+      "minecraft:old_growth_birch_forest": "2025-08-10 23:22:42 +0000",
+      "minecraft:ocean": "2025-08-11 00:04:49 +0000",
+      "minecraft:sunflower_plains": "2025-08-10 23:07:27 +0000",
+      "minecraft:grove": "2025-08-10 23:42:05 +0000",
+      "minecraft:meadow": "2025-08-10 23:55:27 +0000",
+      "minecraft:birch_forest": "2025-08-10 23:22:29 +0000",
+      "minecraft:old_growth_spruce_taiga": "2025-08-10 23:48:02 +0000",
+      "minecraft:plains": "2025-08-10 23:08:00 +0000",
+      "minecraft:jagged_peaks": "2025-08-10 23:59:23 +0000"
     },
     "done": false
   },
@@ -444,6 +502,12 @@
   "minecraft:recipes/decorations/barrel": {
     "criteria": {
       "has_planks": "2025-08-10 23:09:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-08-11 00:10:05 +0000"
     },
     "done": true
   },
@@ -479,13 +543,22 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "bread": "2025-08-10 23:14:48 +0000"
+      "cooked_porkchop": "2025-08-10 23:47:42 +0000",
+      "apple": "2025-08-10 23:43:44 +0000",
+      "bread": "2025-08-10 23:14:48 +0000",
+      "cooked_mutton": "2025-08-10 23:46:06 +0000"
     },
     "done": false
   },
   "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
       "has_cobblestone": "2025-08-10 23:11:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-08-11 00:10:05 +0000"
     },
     "done": true
   },
@@ -498,6 +571,12 @@
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-08-10 23:16:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/saddle": {
+    "criteria": {
+      "has_leather": "2025-08-11 00:10:05 +0000"
     },
     "done": true
   },

@@ -7,14 +7,26 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_birch_forest": "2025-08-10 23:15:54 +0000",
+      "minecraft:cold_ocean": "2025-08-11 00:04:32 +0000",
+      "minecraft:snowy_slopes": "2025-08-10 23:58:04 +0000",
+      "minecraft:old_growth_pine_taiga": "2025-08-10 23:44:38 +0000",
+      "minecraft:dark_forest": "2025-08-10 23:42:13 +0000",
       "minecraft:forest": "2025-08-10 23:12:28 +0000",
       "minecraft:taiga": "2025-08-10 23:13:56 +0000",
-      "minecraft:sunflower_plains": "2025-08-10 22:51:19 +0000",
       "minecraft:river": "2025-08-10 23:01:19 +0000",
-      "minecraft:birch_forest": "2025-08-10 23:22:58 +0000",
       "minecraft:stony_shore": "2025-08-10 22:54:42 +0000",
-      "minecraft:plains": "2025-08-10 22:56:45 +0000"
+      "minecraft:lush_caves": "2025-08-10 23:45:04 +0000",
+      "minecraft:dripstone_caves": "2025-08-10 23:59:31 +0000",
+      "minecraft:frozen_peaks": "2025-08-10 23:49:58 +0000",
+      "minecraft:old_growth_birch_forest": "2025-08-10 23:15:54 +0000",
+      "minecraft:ocean": "2025-08-11 00:04:49 +0000",
+      "minecraft:sunflower_plains": "2025-08-10 22:51:19 +0000",
+      "minecraft:grove": "2025-08-10 23:43:02 +0000",
+      "minecraft:meadow": "2025-08-10 23:54:34 +0000",
+      "minecraft:birch_forest": "2025-08-10 23:22:58 +0000",
+      "minecraft:old_growth_spruce_taiga": "2025-08-10 23:48:03 +0000",
+      "minecraft:plains": "2025-08-10 22:56:45 +0000",
+      "minecraft:jagged_peaks": "2025-08-10 23:59:25 +0000"
     },
     "done": false
   },
@@ -146,7 +158,9 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "bread": "2025-08-10 23:04:33 +0000"
+      "bread": "2025-08-10 23:04:33 +0000",
+      "cooked_mutton": "2025-08-10 23:57:56 +0000",
+      "cooked_beef": "2025-08-10 23:43:58 +0000"
     },
     "done": false
   },
@@ -631,6 +645,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2025-08-10 23:55:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-08-10 23:58:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-08-11 00:09:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2025-08-10 23:32:26 +0000"
@@ -640,6 +672,12 @@
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-08-10 23:32:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-08-10 23:55:16 +0000"
     },
     "done": true
   },
@@ -661,6 +699,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-08-11 00:03:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2025-08-10 23:55:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_pickaxe": "2025-08-10 23:27:22 +0000"
@@ -679,9 +729,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2025-08-11 00:01:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/raw_copper_block": {
     "criteria": {
       "has_raw_copper": "2025-08-10 23:24:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2025-08-11 00:03:52 +0000"
     },
     "done": true
   },
@@ -694,6 +756,12 @@
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-08-10 23:32:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_pickaxe": "2025-08-11 00:02:41 +0000"
     },
     "done": true
   },
@@ -745,15 +813,57 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-08-11 00:09:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-08-10 23:55:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/walk_on_powder_snow_with_leather_boots": {
+    "criteria": {
+      "walk_on_powder_snow_with_leather_boots": "2025-08-11 00:02:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2025-08-10 23:22:06 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_pickaxe": "2025-08-11 00:02:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-08-10 23:32:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-08-11 00:03:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/pale_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-08-11 00:03:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-08-10 23:55:16 +0000"
     },
     "done": true
   },
@@ -781,9 +891,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-08-11 00:03:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/suspicious_stew_from_poppy": {
     "criteria": {
       "has_poppy": "2025-08-10 23:20:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-08-11 00:03:52 +0000"
     },
     "done": true
   },
@@ -805,9 +927,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2025-08-11 00:01:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
     "criteria": {
       "has_raw_iron": "2025-08-10 23:24:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2025-08-10 23:45:20 +0000"
     },
     "done": true
   },
@@ -817,9 +951,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-08-10 23:58:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-08-10 23:32:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-08-11 00:03:52 +0000"
     },
     "done": true
   },
@@ -835,9 +981,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2025-08-11 00:01:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
       "has_iron_pickaxe": "2025-08-10 23:27:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-08-10 23:55:16 +0000"
     },
     "done": true
   },
@@ -853,15 +1011,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-08-10 23:55:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-08-10 23:32:26 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-08-11 00:03:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/saddle": {
+    "criteria": {
+      "has_leather": "2025-08-10 23:55:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2025-08-10 23:22:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-08-11 00:03:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-08-11 00:03:52 +0000"
     },
     "done": true
   },
@@ -874,6 +1062,12 @@
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2025-08-10 23:31:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-08-10 23:45:20 +0000"
     },
     "done": true
   },
@@ -895,9 +1089,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-08-10 23:45:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2025-08-10 23:55:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
     "criteria": {
       "has_raw_copper": "2025-08-10 23:24:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2025-08-10 23:55:13 +0000"
     },
     "done": true
   },
